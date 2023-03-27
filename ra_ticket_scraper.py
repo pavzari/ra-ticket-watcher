@@ -7,7 +7,8 @@ Gmail if any become available.
 # 1. Remove hardcoding of URL, TARGET_EMAIL, TICKETS_WANTED, TICKET_WANTED
 # 2. Add support for multiple events
 # 3. Add support for multiple target emails
-# 4. requirements.txt
+# 4. Requirements.txt
+# 5. Update actions pipeline.
 
 import os
 import ssl

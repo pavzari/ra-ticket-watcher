@@ -6,8 +6,9 @@ on:
     #- cron: '*/30 * * * *'
 
 env:
-    GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
-    GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
+    GMAIL_CLIENT_EMAIL: ${{ secrets.GMAIL_CLIENT_EMAIL }}
+    GMAIL_CLIENT_PASS: ${{ secrets.GMAIL_CLIENT_PASS }}
+    TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
 
 jobs:
   scrape_tickets:
