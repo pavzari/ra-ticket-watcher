@@ -5,7 +5,6 @@ Gmail if any become available.
 """
 # TODO:
 #  Add support for multiple events.
-#  Requirements.txt
 #  Avoid sending multiple email notifications in case multiple ticket types become available at the same time.
 
 import os
